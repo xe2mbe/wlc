@@ -1,0 +1,24 @@
+Reference from:
+
+https://www.ginkgobioworks.com/2021/02/04/creating-a-rest-api-using-django-rest-framework/
+
+"1.- configure and activate ENV"  
+"2.- Install django: pip3 install django"  
+"3.- Install djangorestframework: pip3 install djangorestframework"  
+"4.- Create a Django Project: django-admin startproject API_WLC"  
+"5.- Create a Django App into Django Project: django-admin startapp apiWLC"  
+"6.- Register the Apps into API_WLC/settings.py file: INSTALLED_APPS = { 'rest_framework', 'apiWLC.apps.apiwlcApiConfig',"  
+"7.- Review the tree, it should looks like:
+ -WLC
+ --__init__.py
+ --asgi.py
+ --setting.py
+ --urls.py
+ --wsgi.py
+
+ -apiWLC
+ --migrations
+ --__init__.py
+ --admin.py
+
+ -manage-py" 
